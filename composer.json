@@ -1,0 +1,38 @@
+{
+    "name": "hipszkij/action-modal",
+    "description": "A Laravel Nova modal asset.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "action",
+        "modal"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hipszki Janos",
+            "email": "hipszkij@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/nova": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "hipszkij\\ActionModal\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "hipszkij\\ActionModal\\AssetServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
